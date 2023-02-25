@@ -13,17 +13,17 @@ chrome.alarms.onAlarm.addListener(
         )
     },
 )
-chrome.runtime.onMessage.addListener(
-    function (request, sender, sendResponse) {
-        console.log(request);
-        if (request.time)
-            createAlarm();
+// chrome.runtime.onMessage.addListener(
+//     function (request, sender, sendResponse) {
+//         console.log(request);
+//         if (request.time)
+//             createAlarm();
 
-        sendResponse(() => {
-            return false
-        });
-    }
-);
+//         sendResponse(() => {
+//             return false
+//         });
+//     }
+// );
 
 function createAlarm() {
     chrome.alarms.create(
@@ -35,9 +35,12 @@ function createAlarm() {
     );
 }
 
-
   chrome.notifications.onClosed.addListener(async () => {
     const item = await chrome.storage.sync.get(['minutes']);
-    chrome.action.setBadgeText({ text: 'ON' });
-    chrome.alarms.create({ delayInMinutes: item.minutes });
+    chrome.alarms.create(
+        "drink_water",
+        { 
+            delayInMinutes: item.minutes,
+            periodInMinutes: item.minutes 
+        });
   });
