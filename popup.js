@@ -7,7 +7,12 @@
 
 function createAlarm(event) {
     let minutes = parseFloat(event.target.value);
-    chrome.alarms.create({delayInMinutes: minutes});
+    chrome.alarms.create(
+        "drink_Water",
+        {
+            delayInMinutes: minutes,
+            periodInMinutes: minutes
+        });
     chrome.storage.sync.set({minutes: minutes});
     window.close();
   }
