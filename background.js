@@ -36,7 +36,7 @@ function createAlarm() {
 }
 
 
-  chrome.notifications.onButtonClicked.addListener(async () => {
+  chrome.notifications.onClosed.addListener(async () => {
     const item = await chrome.storage.sync.get(['minutes']);
     chrome.action.setBadgeText({ text: 'ON' });
     chrome.alarms.create({ delayInMinutes: item.minutes });
