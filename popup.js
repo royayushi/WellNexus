@@ -96,3 +96,7 @@ function createAlarm(event) {
   };
   document.addEventListener("DOMContentLoaded", restoreShowTime);
   
+
+  // ================================ WALK REMINDER ============================
+
+  
