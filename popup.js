@@ -46,3 +46,16 @@ function restoreCheckbox() {
   document.getElementById('min180').addEventListener('click',createAlarm);
   document.getElementById('min240').addEventListener('click', createAlarm);
 //   document.getElementById('cancelAlarm').addEventListener('click', clearAlarm);
+
+
+  function showTime() {
+    var showDiv = document.getElementById("timeIntervals");
+    var checkvalue = document.getElementById('setwateralarm').checked;
+    if (checkvalue) {
+      showDiv.style.display = "block";
+    } else {
+      showDiv.style.display = "none";
+    }
+  }
+
+  document.getElementById("setwateralarm").onclick = function() {showTime()};
