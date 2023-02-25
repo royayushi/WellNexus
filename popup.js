@@ -13,7 +13,6 @@ function createAlarm(event) {
   }
   
 //   function clearAlarm() {
-//     chrome.action.setBadgeText({text: ''});
 //     chrome.alarms.clearAll();
 //     window.close();
 //   }
@@ -53,14 +52,21 @@ function restoreCheckbox() {
     var checkvalue = document.getElementById('setwateralarm').checked;
     if (checkvalue) {
       showDiv.style.display = "flex";
-    } else {
+      chrome.storage.local.set({showDiv: "flex"});
+    } 
+    else {
       showDiv.style.display = "none";
-    }
-    chrome.storage.sync.set({
-        showDiv: showDiv
-      });
+      chrome.alarms.clear("createAlarm");
+      chrome.storage.local.set({showDiv: "none"});
+    }   
   }
 
-
+function restoreShowTime() {
+    chrome.storage.local.get("showDiv", function(result) {
+        var showDiv = document.getElementById("timeIntervals");
+        showDiv.style.display = result.showDiv || "none";
+      });
+}
 
   document.getElementById("setwateralarm").onclick = function() {showTime()};
+  document.addEventListener('DOMContentLoaded', restoreShowTime);
