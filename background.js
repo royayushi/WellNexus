@@ -14,13 +14,21 @@ chrome.alarms.onAlarm.addListener(
     },
 )
 
-  chrome.notifications.onClosed.addListener(async () => {
+//   chrome.notifications.onClosed.addListener(async () => {
+//     const item = await chrome.storage.sync.get(['minutes']);
+//     chrome.alarms.create(
+//         "drink_water",
+//         { 
+//             delayInMinutes: item.minutes,
+//             periodInMinutes: item.minutes 
+//         });
+//   });
+
+chrome.notifications.onClosed.addListener(async () => {
     const item = await chrome.storage.sync.get(['minutes']);
-    chrome.alarms.create(
-        "drink_water",
-        { 
-            delayInMinutes: item.minutes,
-            periodInMinutes: item.minutes 
-        });
-  });
+    function showMinutes(item) {
+        console.log('Minutes value currently is ' + item.minutes);
+    }
+    showMinutes(item);
+});
 

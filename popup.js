@@ -56,8 +56,14 @@ function restoreCheckbox() {
     } 
     else {
       showDiv.style.display = "none";
-      chrome.alarms.clear("createAlarm");
-      chrome.storage.local.set({showDiv: "none"});
+      chrome.alarms.clear("drink_water");
+      if (alarmCleared === true) {
+        alert("Your water reminder has been deleted.")
+    }
+    else{
+        alert("You still have your water reminder!")
+    }
+      chrome.storage.local.set({showDiv: "none", alarmCleared: true});
     }   
   }
 
@@ -68,5 +74,18 @@ function restoreShowTime() {
       });
 }
 
+function restoreAlarmCleared() {
+    chrome.storage.local.get(['alarmCleared'], function(result) {
+        var alarmCleared = result.alarmCleared;
+        if (alarmCleared === true) {
+            alert("Your water reminder has been deleted.")
+        }
+        else{
+            alert("You still have your water reminder!")
+        }
+    })
+}   
+
   document.getElementById("setwateralarm").onclick = function() {showTime()};
   document.addEventListener('DOMContentLoaded', restoreShowTime);
+  document.addEventListener('DOMContentLoaded', restoreAlarmCleared);
