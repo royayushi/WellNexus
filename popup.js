@@ -52,10 +52,15 @@ function restoreCheckbox() {
     var showDiv = document.getElementById("timeIntervals");
     var checkvalue = document.getElementById('setwateralarm').checked;
     if (checkvalue) {
-      showDiv.style.display = "block";
+      showDiv.style.display = "flex";
     } else {
       showDiv.style.display = "none";
     }
+    chrome.storage.sync.set({
+        showDiv: showDiv
+      });
   }
+
+
 
   document.getElementById("setwateralarm").onclick = function() {showTime()};
