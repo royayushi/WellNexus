@@ -10,12 +10,6 @@ function createAlarm(event) {
     chrome.storage.sync.set({minutes: minutes});
     window.close();
   }
-
-// ele.addEventListener("click", () => {
-//     chrome.runtime.sendMessage({ time: "0.5" }, function (response) {
-//         console.log(response);
-//     });
-// });
   
 //   function clearAlarm() {
 //     chrome.action.setBadgeText({text: ''});
