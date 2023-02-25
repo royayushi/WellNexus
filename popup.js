@@ -7,7 +7,8 @@ function createAlarm(event) {
             delayInMinutes: minutes,
             periodInMinutes: minutes
         });
-    chrome.storage.sync.set({minutes: minutes});
+    chrome.storage.sync.set({minutes: minutes}
+    );
     window.close();
   }
   
@@ -16,6 +17,27 @@ function createAlarm(event) {
 //     chrome.alarms.clearAll();
 //     window.close();
 //   }
+
+function saveCheckbox() {
+var yeswater = document.getElementById('setwateralarm').checked;
+  chrome.storage.sync.set({
+    yeswater: yeswater
+  });
+}
+
+// Restores select box and checkbox state using the preferences
+// stored in chrome.storage.
+function restoreCheckbox() {
+    // Use default value yeswater = false.
+    chrome.storage.sync.get({
+      yeswater: false
+    }, function(items) {
+      document.getElementById('setwateralarm').checked = items.yeswater;
+    });
+  }
+  document.addEventListener('DOMContentLoaded', restoreCheckbox);
+  document.getElementById('setwateralarm').addEventListener('click',
+      saveCheckbox);
 
   document.getElementById('sampleMinute').addEventListener('click', createAlarm);
   document.getElementById('min30').addEventListener('click', createAlarm);

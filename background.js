@@ -23,3 +23,4 @@ chrome.alarms.onAlarm.addListener(
             periodInMinutes: item.minutes 
         });
   });
+
