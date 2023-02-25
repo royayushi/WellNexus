@@ -27,13 +27,3 @@ chrome.notifications.onClosed.addListener(async () => {
     showMinutes(item);
 });
 
-// chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
-//     if (message.type === 'stopAlarm') {
-//       chrome.alarms.clear('drink_water', function(wasCleared) {
-//         if (wasCleared) {
-//           sendResponse({ message: 'alarm_cleared' });
-//         }
-//       });
-//     }
-//   });
-  
