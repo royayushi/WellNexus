@@ -8,7 +8,10 @@
 
 ## :seedling:Proposed Solution:
 
+## Technologies Used:
+(https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![HTML5]
+
 ## :paperclip:Screenshots: 
 
 ## :link:Website Link:
-https://well-nexus.netlify.app/
+
