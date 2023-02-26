@@ -66,7 +66,6 @@ function setAlarm() {
 }
 
 setAlarmBtn.addEventListener("click", setAlarm);
-
 function changeMode() {
      var element = document.body;
          element.classList.toggle("dark-mode");
