@@ -37,3 +37,7 @@ We built a Chrome Extension for the first time, so it was definitely a challenge
 
 ## :link: Website Link:
 :paperclip: https://well-nexus.netlify.app/
+
+## What's next for WellNexus?
+
+We have plans to include a walking and a sleep reminder next in WellNexus. We will also deploy the chrome extension in webstore.
