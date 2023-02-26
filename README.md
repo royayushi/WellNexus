@@ -1,5 +1,5 @@
 # <img src ="https://user-images.githubusercontent.com/113718177/221416378-c4995528-fe91-443c-9385-421130978ace.png" width = 50> WellNexus 
-
+**With WellNexus, you will always be reminded to drink water and be health conscious.**
 
 ## 	:memo: Problem Statement:
 **"The greatest wealth is health." - Virgil**<br/><br/>
