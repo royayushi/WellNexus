@@ -89,6 +89,9 @@ next_btn.onclick = ()=>{
 }
 
 // getting questions and options from array
+// let questions = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// questions.sort(() => Math.random() > 0.5 ? 1 : -1);
+
 function showQuetions(index){
     const que_text = document.querySelector(".que_text");
 

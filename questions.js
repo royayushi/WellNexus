@@ -3,7 +3,7 @@ let questions = [
     {
     numb: 1,
     question: "Which of the following foods is a good source of vitamin C?",
-    answer: "OrangesOranges",
+    answer: "Oranges",
     options: [
       "Chicken",
       "Oranges",
@@ -30,7 +30,7 @@ let questions = [
       "Diabetes",
       "Cancer",
       "Tuberculosis",
-      "Influenzar"
+      "Influenza"
     ]
   },
     {

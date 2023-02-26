@@ -4,14 +4,15 @@
     "version": "1.0",
     "manifest_version": 3,
     "background": {
-        "service_worker": "manifest\\background.js"
+        "service_worker": "background.js"
     },
     "permissions": [
         "notifications",
         "storage",
-        "alarms"
+        "alarms",
+        "tabs"
     ],
     "action": {
-        "default_popup": "popup\\popup.html"
+        "default_popup": "popup.html"
     }
 }
