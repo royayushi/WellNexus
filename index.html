@@ -7,13 +7,13 @@
     <title>Welcome to WELLNEXUS</title>
     <link rel="icon"  href="assets\favicon.ico">
 
-    <link rel="stylesheet" href="glass.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" type="text/css" href="toggle.css">
 </head>
 <body>
   <div id="container">
     <label class="switch">
-      <input type="checkbox" onclick="changeMode()">
+      <input type="checkbox" id="check">
       <span class="slider"></span>
     </label>
   </div>
@@ -52,11 +52,6 @@
     </div>
   </div>
 
-  <script>
-    function changeMode() {
-       var element = document.body;
-       element.classList.toggle("dark-mode");
-    }
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>

@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Alarm Clock</title>
-    <link rel="stylesheet" type="text/css" href="toggle.css">
     <link rel="stylesheet" href="alarm.css">
     <link rel="icon"  href="assets\favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
   <body>
     <div id="container">
       <label class="switch">
-        <input type="checkbox" onclick="changeMode()">
+        <input type="checkbox" id="check">
         <span class="slider"></span>
       </label>
     </div>
@@ -42,11 +41,5 @@
 
     <script src="alarm.js"></script>
 
-    <script>
-      function changeMode() {
-         var element = document.body;
-         element.classList.toggle("dark-mode");
-      }
-    </script>
   </body>
 </html>
