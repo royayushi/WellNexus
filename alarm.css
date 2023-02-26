@@ -23,6 +23,11 @@ body{
   border-radius: 10px;
   flex-direction: column;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  position: relative;
+  left: -235px;
+}
+.switch{
+  left: -2px;
 }
 .wrapper img{
   max-width: 103px;
