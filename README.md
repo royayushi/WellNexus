@@ -8,7 +8,10 @@
 
 ## :seedling:Proposed Solution:
 
+## Technologies Used:
+1.HTML
+
 ## :paperclip:Screenshots: 
 
 ## :link:Website Link:
-https://well-nexus.netlify.app/
+
