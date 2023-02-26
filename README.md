@@ -20,6 +20,9 @@ Most of the time, we are sitting behind a laptop, so we thought why not make a c
 ## :computer: Technologies Used:
 <img src ="https://user-images.githubusercontent.com/82845528/221410588-0a10f09c-ad47-45b8-a20d-bb44ffda330f.png" width = 70>   <img src ="https://user-images.githubusercontent.com/82845528/221410593-62b99a6d-024b-4a63-9244-c272cb7c4540.png" width = 75>   <img src ="https://user-images.githubusercontent.com/82845528/221410596-9cf4e3f7-a6ca-45e4-81d3-95c668721d79.png" width = 70>   ![git](https://user-images.githubusercontent.com/113718177/221410549-1337aad8-9980-474b-8853-77b006a654a5.svg)
 
+## Chalenges We Faced:
+We built a Chrome Extension for the first time, so it was definitely a challenge to learn and implement it in the project within two days. We have various functions in the extension like the alarm function, the stop alarm function, restoring and saving toggle function; and it was a challenge to try to figure out how to sync all those functions across various tabs.
+
 ## :camera: Screenshots:
 ![img1](https://user-images.githubusercontent.com/113718177/221417606-b9305e32-0642-44d8-bbe6-ba8062bea9c0.png)
 
