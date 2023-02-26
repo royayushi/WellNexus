@@ -14,7 +14,7 @@ function createAlarm(event) {
   }
   
   function stopAlarm() {
-    chrome.alarms.clear("drink_water", function(wasCleared) {
+    chrome.alarms.clearAll( function(wasCleared) {
       if (wasCleared) {
         console.log("Alarm cleared successfully");
         chrome.storage.sync.set({ stopAlarm: true });
