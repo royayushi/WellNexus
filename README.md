@@ -22,9 +22,13 @@ Most of the time, we are sitting behind a laptop, so we thought why not make a c
 
 ## :camera: Screenshots:
 ![img1](https://user-images.githubusercontent.com/113718177/221417606-b9305e32-0642-44d8-bbe6-ba8062bea9c0.png)
-![img2](https://user-images.githubusercontent.com/113718177/221417610-88fb6cf8-eecc-42a2-a552-91b3a9f08040.png)
+
+![img2](https://user-images.githubusercontent.com/113718177/221417794-cdb5cf04-c6f2-4342-9831-5a28eda98021.png)
+
 ![img3](https://user-images.githubusercontent.com/113718177/221417615-4f3c67bb-77a1-403d-95fe-18e0a925921e.png)
+
 ![img4](https://user-images.githubusercontent.com/113718177/221417640-e8edd325-8548-494a-828f-cfab74736ce7.png)
+
 ![img5](https://user-images.githubusercontent.com/113718177/221417643-4121e2ff-7e24-4605-a60c-567dcc609aa3.png)
 
 
