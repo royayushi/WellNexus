@@ -1,4 +1,6 @@
-# WellNexus 
+# <img src ="https://user-images.githubusercontent.com/113718177/221416378-c4995528-fe91-443c-9385-421130978ace.png" width = 50> WellNexus 
+
+
 ## 	:memo: Problem Statement:
 **"The greatest wealth is health." - Virgil**<br/><br/>
 But, sometimes, in the hustle and bustle of daily lives, we forget to take care of our health and wellness. Even incorporating the basic things in our routine can make our lives much more healthier. Every living being on Earth needs water for survival. In fact, our body is 70% water, however, a lot of times, we forget to drink the required amount of water, which can lead to dehydration and fatigue.<br/>
