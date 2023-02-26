@@ -20,7 +20,13 @@ Most of the time, we are sitting behind a laptop, so we thought why not make a c
 ## :computer: Technologies Used:
 <img src ="https://user-images.githubusercontent.com/82845528/221410588-0a10f09c-ad47-45b8-a20d-bb44ffda330f.png" width = 70>   <img src ="https://user-images.githubusercontent.com/82845528/221410593-62b99a6d-024b-4a63-9244-c272cb7c4540.png" width = 75>   <img src ="https://user-images.githubusercontent.com/82845528/221410596-9cf4e3f7-a6ca-45e4-81d3-95c668721d79.png" width = 70>   ![git](https://user-images.githubusercontent.com/113718177/221410549-1337aad8-9980-474b-8853-77b006a654a5.svg)
 
-## :camera: Screenshots: 
+## :camera: Screenshots:
+![img1](https://user-images.githubusercontent.com/113718177/221417606-b9305e32-0642-44d8-bbe6-ba8062bea9c0.png)
+![img2](https://user-images.githubusercontent.com/113718177/221417610-88fb6cf8-eecc-42a2-a552-91b3a9f08040.png)
+![img3](https://user-images.githubusercontent.com/113718177/221417615-4f3c67bb-77a1-403d-95fe-18e0a925921e.png)
+![img4](https://user-images.githubusercontent.com/113718177/221417640-e8edd325-8548-494a-828f-cfab74736ce7.png)
+![img5](https://user-images.githubusercontent.com/113718177/221417643-4121e2ff-7e24-4605-a60c-567dcc609aa3.png)
+
 
 ## :link: Website Link:
 :paperclip: https://well-nexus.netlify.app/
