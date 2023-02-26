@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const currentTime = document.querySelector("h1"),
+=======
+const currentTime = document.querySelector("h2"),
+>>>>>>> a71765876c06eb17a1535569e8a4cc17d430e70d
 content = document.querySelector(".content"),
 selectMenu = document.querySelectorAll("select"),
 setAlarmBtn = document.querySelector("button");

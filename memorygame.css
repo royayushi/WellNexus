@@ -6,49 +6,34 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-h1{
-  margin-top: 70px;
-}
 p{
   font-size: 20px;
 }
 body{
-  /*display: flex;*/
+  display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #ba9fe7;
-  background-size: 2500px;
-  /*height: 100%;*/
-  position: relative;
+  justify-content: left;
+  min-height: 100vh;
+  background: #6563ff;
 }
 ::selection{
   color: #fff;
   background: #6563ff;
 }
 .wrapper{
-  position: relative;
-  height: 30pc;
-  width: 30pc;
-  margin: auto;
-  top: 50px;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 35px black;
-  padding-top: 71px;
-  padding-bottom: 40px;
-  padding-left: 38px;
-  padding-right: 30px;
+  padding: 25px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
-.cards, .card, .view, .details, .time, .flips{
+.cards, .card, .view, .details, p{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .cards{
-  height: 370px;
-  width: 370px;
+  height: 350px;
+  width: 350px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -120,9 +105,8 @@ body{
 }
 .details p{
   font-size: 18px;
-  height: 25px;
+  height: 17px;
   padding-right: 18px;
-  margin-top: 16px;
   border-right: 1px solid #ccc;
 }
 .details p span{
@@ -134,16 +118,16 @@ body{
 .details button{
   cursor: pointer;
   font-size: 14px;
-  color: darkviolet;
+  color: #6563ff;
   border-radius: 4px;
   padding: 4px 11px;
   background: #fff;
-  border: 2px solid darkviolet;
+  border: 2px solid #6563ff;
   transition: 0.3s ease;
 }
 .details button:hover{
   color: #fff;
-  background: darkviolet;
+  background: #6563ff;
 }
 
 @media screen and (max-width: 700px) {

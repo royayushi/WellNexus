@@ -4,12 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Awesome Quiz App</title>
     <link rel="stylesheet" href="quiz.css">
     <link rel="icon"  href="assets\favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
+=======
+    <title>Awesome Quiz App | CodingNepal</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="icon"  href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="toggle.css">
+</head>
+<body>
+    <div id="container">
+        <label class="switch">
+          <input type="checkbox" onclick="changeMode()">
+          <span class="slider"></span>
+        </label>
+      </div>
+>>>>>>> a71765876c06eb17a1535569e8a4cc17d430e70d
 
     <div class="start_btn"><button>Start Quiz</button></div>
 
@@ -73,10 +89,24 @@
     </div>
 
     
+<<<<<<< HEAD
     <script src="questions.js"></script>
 
     
     <script src="quiz.js"></script>
 
+=======
+    <script src="js/questions.js"></script>
+
+    
+    <script src="js/quiz.js"></script>
+
+    <script>
+        function changeMode() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+      </script>
+>>>>>>> a71765876c06eb17a1535569e8a4cc17d430e70d
 </body>
 </html>
