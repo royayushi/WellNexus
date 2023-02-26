@@ -9,8 +9,7 @@
 ## :seedling:Proposed Solution:
 
 ## Technologies Used:
-1.HTML
-2.CSS
+(https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![HTML5]
 
 ## :paperclip:Screenshots: 
 
