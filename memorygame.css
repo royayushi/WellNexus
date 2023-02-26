@@ -9,6 +9,17 @@
 p{
   font-size: 20px;
 }
+h1{
+  position: relative;
+  top: -250px;
+  left: 140px;
+}
+.tagline{
+  position: relative;
+  top: -130px;
+  left: -222px;
+  width: 350px;
+}
 body{
   display: flex;
   align-items: center;
@@ -21,10 +32,13 @@ body{
   background: #6563ff;
 }
 .wrapper{
+  position: relative;
   padding: 25px;
   background: #f8f8f8;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  left: -575px;
+  top: 120px;
 }
 .cards, .card, .view, .details, p{
   display: flex;
