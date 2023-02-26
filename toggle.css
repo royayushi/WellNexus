@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background: url(light.jpg);
+  background: url("assets\\light.jpg");
   transition: .6s;
 }
 h1 {
@@ -53,8 +53,12 @@ input:checked + .slider:before {
   transform: translateX(100%);
 }
 .dark-mode {
-    background: url(dark.jpg);
+    background: url("assets\\dark.jpg");
 }
 .dark-mode h1 {
   color: #f7f0e9;
+}
+.dark-mode p{
+  color: whitesmoke;
+  font-weight: bold;
 }

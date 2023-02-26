@@ -102,7 +102,7 @@ function createAlarm(event) {
     // adding a click event listener to the link
     openWebsiteLink.addEventListener('click', function() {
       // creating a new tab with the website url
-       chrome.tabs.create({ url: chrome.runtime.getURL('glass.html') });
+       chrome.tabs.create({ url: chrome.runtime.getURL('index.html') });
       // chrome.tabs.create({ url: 'https://well-nexus.netlify.app/' });
     });
   });

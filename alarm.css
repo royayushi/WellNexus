@@ -9,11 +9,7 @@
 body, .wrapper, .content{
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   justify-content: center;
-=======
-  justify-content: left;
->>>>>>> a71765876c06eb17a1535569e8a4cc17d430e70d
 }
 body{
   padding: 0 10px;
@@ -31,11 +27,7 @@ body{
 .wrapper img{
   max-width: 103px;
 }
-<<<<<<< HEAD
-.wrapper h1{
-=======
 .wrapper h2{
->>>>>>> a71765876c06eb17a1535569e8a4cc17d430e70d
   font-size: 38px;
   font-weight: 500;
   margin: 30px 0;
@@ -50,11 +42,7 @@ body{
 .content .column{
   padding: 0 10px;
   border-radius: 5px;
-<<<<<<< HEAD
-  border: 1px solid #bfbfbf;
-=======
   border: 1px solid #c01d1d;
->>>>>>> a71765876c06eb17a1535569e8a4cc17d430e70d
   width: calc(100% / 3 - 5px);
 }
 .content.disable .column{
