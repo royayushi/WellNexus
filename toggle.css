@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url(light.jpg);
+  transition: .6s;
+}
+h1 {
+  font-size: 5em;
+  color: #eb2b2bc3;
+  font-family: "Lucida Handwriting";
+}
+#container {
+    width:30vw;
+  display: inline;
+  align-self: start;
+}
+.switch {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  display: none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  width: 60px;
+	height: 30px;
+	background-image: url(https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png);
+	background-size: cover;
+	border-radius: 50px;
+	outline: none;
+	transition: background-image .90s;
+	box-shadow: 0px 2px 5px 1px gray;
+}
+.slider:before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  border-radius: 50px;
+  transition: all .9s;
+}
+input:checked + .slider {
+  background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
+}
+input:checked + .slider:before {
+  transform: translateX(100%);
+}
+.dark-mode {
+    background: url(dark.jpg);
+}
+.dark-mode h1 {
+  color: #f7f0e9;
+}
