@@ -23,21 +23,8 @@ Most of the time, we are sitting behind a laptop, so we thought why not make a c
 ## Chalenges We Faced:
 We built a Chrome Extension for the first time, so it was definitely a challenge to learn and implement it in the project within two days. We have various functions in the extension like the alarm function, the stop alarm function, restoring and saving toggle function; and it was a challenge to try to figure out how to sync all those functions across various tabs.
 
-## :camera: Screenshots:
-![img1](https://user-images.githubusercontent.com/113718177/221417606-b9305e32-0642-44d8-bbe6-ba8062bea9c0.png)
 
-![img2](https://user-images.githubusercontent.com/113718177/221417794-cdb5cf04-c6f2-4342-9831-5a28eda98021.png)
-
-![img3](https://user-images.githubusercontent.com/113718177/221417615-4f3c67bb-77a1-403d-95fe-18e0a925921e.png)
-
-![img4](https://user-images.githubusercontent.com/113718177/221417640-e8edd325-8548-494a-828f-cfab74736ce7.png)
-
-![img5](https://user-images.githubusercontent.com/113718177/221417643-4121e2ff-7e24-4605-a60c-567dcc609aa3.png)
-
-
-## :link: Website Link:
-:paperclip: https://well-nexus.netlify.app/
 
 ## What's next for WellNexus?
 
-We have plans to include a walking and a sleep reminder next in WellNexus. We will also deploy the chrome extension in webstore.
+We have plans to include a walking and a sleep reminder next in WellNexus.
